@@ -1,0 +1,166 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: "PT Sans", Arial, sans-serif;
+  font-size: 14px;
+  line-height: 26px;
+  font-weight: normal;
+  color: #000000;
+  text-transform: uppercase;
+  background-color: #f2f2f2;
+}
+
+a {
+  text-decoration: none;
+}
+
+.main-navigation,
+.container,
+.main-footer {
+  background-color: #ffffff;
+}
+
+.site-navigation,
+.search-hotel,
+.footer-social {
+  list-style: none;
+}
+
+.site-navigation a{
+  color: #000000;
+  font-weight: bold;
+}
+
+.site-navigation a:hover,
+.site-navigation a:focus{
+  color:#81b3d2;
+}
+
+.site-navigation a:active{
+color:#b3b3b3;
+}
+
+.site-navigation-current{
+color: #766357;
+font-weight: bold;
+}
+
+.intro,
+.search,
+.search-hotel-form{
+  text-align: center;
+}
+
+
+
+.intro h2{
+  font-size:21px;
+}
+
+.intro-fon{
+  background-color: #f2f2f2;
+  background-image: url("../img/background-photo.jpg");
+  background-position: 0 0;
+  background-repeat: no-repeat;
+}
+
+.search-hotel h2{
+ font-size:30px;
+ line-height: 36px;
+}
+
+.search-hotel h3{
+  font-size: 21px;
+}
+
+.search-hotel h3:hover,
+.search-hotel h3:focus{
+  color:#81b3d2;
+}
+
+.search-hotel h3:active{
+  color:#cacaca;
+}
+
+.rating{
+background-color: #f2f2f2;
+}
+
+.search-hotel-form{
+  color: #000000;
+  font-weight: bold;
+}
+
+.search-hotel-form input{
+  background-color:#f2f2f2;
+  font-weight: bold;
+  text-transform: uppercase;
+  border: none;
+}
+
+.search-hotel-form input:hover,
+.search-hotel-form input:focus{
+  background-color: #ebebeb;
+}
+
+.search-hotel-form input:active{
+  border: solid 2px #e5e5e5;
+  background-color: #ffffff;
+}
+
+.button {
+  font: inherit;
+  text-align: center;
+  color: #a9a9a9;
+  vertical-align: middle;
+  text-transform: uppercase;
+  border: none;
+  background-color:#f2f2f2;
+}
+
+.button:hover,
+.button:focus{
+  color: #000000;
+}
+
+.button:active{
+  color: #81b3d2;
+}
+
+.brown-button {
+  background-color:#766357;
+  color: #ffffff;
+  font-size: 21px;
+}
+
+.search-hotel button:hover,
+.search-hotel button:focus{
+  background-color: #604e43;
+  color: #ffffff;
+}
+
+.search-hotel button:active{
+  background-color:#503e33;
+  color: #928a85;
+}
+
+.blue-button a{
+  background-color:#81b3d2;
+  color: #ffffff;
+  font-size: 21px;
+}
+
+.blue-button a:hover,
+.blue-button a:focus{
+  background-color: #669ec0;
+}
+
+.blue-button a:active{
+  background-color:#5496bd;
+  color: #85b0cd;
+}
+
+.contacts{
+  font-size: 21px;
+  font-weight: bold;
+}
